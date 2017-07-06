@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InventoryActivity">
+
+    <item
+        android:id="@+id/action_delete_all"
+        android:title="@string/title_delete_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_supplier"
+        android:title="@string/title_set_email"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <!--list_item-->
+    <string name="in_store">In store: </string>
+    <string name="sell_button">Sell</string>
+    <!--activity_inventory-->
+    <string name="empty_list_message">Add a product to begin</string>
+    <!--AndroidManifest-->
+    <string name="inventory_activity_label">Inventory</string>
+    <!--menu_inventory-->
+    <string name="title_delete_all">Delete All</string>
+    <string name="title_set_email">Set Supplier E-mail</string>
+    <!--menu_editor-->
+    <string name="title_save">Save</string>
+    <string name="title_delete">Delete</string>
+    <!--activity_edit-->
+    <string name="product_name">product name</string>
+    <string name="product_name_hint">name</string>
+    <string name="product_price">product price</string>
+    <string name="product_price_hint">price</string>
+    <string name="product_quantity">in store</string>
+    <string name="product_quantity_hint">quantity</string>
+    <string name="product_image">product image</string>
+    <string name="order_text_view">Order from supplier:</string>
+    <string name="order_button">Send order</string>
+    <string name="quantity_decrement">-</string>
+    <string name="quantity_increment">+</string>
+    <string name="order_default_value">1</string>
+    <string name="order_amount_hint">amount</string>
+    <!--InventoryActivity-->
+    <string name="delete_all_message">Are you sure you want to delete all products?</string>
+    <string name="delete_all_continue">Continue</string>
+    <string name="delete_all_cancel">Cancel</string>
+    <string name="edit_supplier_dialogmessage">Enter supplier e-mail</string>
+    <string name="edit_supplier_save">Save</string>
+    <string name="edit_supplier_cancel">Cancel</string>
+    <!--EditActivity-->
+    <string name="activity_title_new">Add New Product</string>
+    <string name="activity_title_edit">Edit Product</string>
+    <string name="order_email_subject">Order</string>
+    <string name="order_email_body1">Dear Supplier!\n\nWe would like to order&#160;</string>
+    <string name="order_email_body2">(s), as per our standard agreement.\n\nRegards</string>
+    <string name="toast_input_error">Please fill out all fields</string>
+    <string name="toast_order_input_error">Requires product name and order quantity</string>
+    <string name="insert_data_success">Inserting product successful</string>
+    <string name="insert_data_failed">Inserting product failed</string>
+    <string name="update_data_success">Updating product successful</string>
+    <string name="update_data_failed">Updating product failed</string>
+    <string name="delete_data_success">Deleting product successful</string>
+    <string name="delete_data_failed">Deleting product failed</string>
+    <string name="discard_dialog_title">Discard changes?</string>
+    <string name="discard_dialog_discard">Discard</string>
+    <string name="discard_dialog_cancel">Keep Editing</string>
+    <string name="delete_dialog_title">Delete Product?</string>
+    <string name="delete_dialog_delete">Delete</string>
+    <string name="delete_dialog_cancel">Cancel</string>
+    <!--ProductCursorAdapter-->
+    <string name="out_of_stock">Out of stock</string>
+    <string name="currency">&#160;HUF</string>
+</resources>
